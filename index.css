@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar-brand {
+    line-height: 0;
+    font-size: 0;
+}
+
+.navbar-brand span {
+    font-size: 1.5rem;
+    line-height: normal;
+    color: inherit;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 15px;
+}
+.background-container{
+    min-height: 89.9vh;
+    color: white;
+    background-image: url("https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr");
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 0;
+}
+
+.background-container h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.background-container p {
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.active-btn:hover {
+    background-color: #000;
+    color: white;
+}
+.star-btn {
+    background-color: rgb(201, 201, 201, 0.3);
+    border: 0;
+}
+
+.active-star-btn {
+    background-color: #000;
+    color: white;
+}
+.custom-input-group {
+    background-color: #fff;
+}
+
+.custom-input-group label {
+    font-size: 12px;
+    color: #888;
+}
+
+.form-control {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    cursor: pointer;
+}
+.form-control-input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.night-info {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+
+.night-info i {
+    display: block;
+    font-size: 13px;
+    color: black;
+}
+
+.input-group .form-control {
+    padding-left: 0;
+}
+
+.input-group .form-control::placeholder {
+    color: #888;
+}
+.search-btn {
+    font-size: 1rem;
+}
+/* responsive font-size */
+@media (min-width: 768px) {
+    .responsive-display-1 {
+        font-size: 2.6rem !important;
+    }
+
+    .responsive-fs-1 {
+        font-size: 1.35rem !important;
+    }
+
+    .responsive-fs-2 {
+        font-size: 1.5rem !important;
+    }
+    .search-btn {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .responsive-display-1 {
+        font-size: 4rem !important;
+    }
+
+    .responsive-fs-1 {
+        font-size: 1.4rem !important;
+    }
+
+    .responsive-fs-2 {
+        font-size: 1.2rem !important;
+    }
+    .search-btn {
+        font-size: 2rem;
+    }
+}
